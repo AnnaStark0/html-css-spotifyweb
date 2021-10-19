@@ -8,122 +8,50 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    background-color: aquamarine;
-}
-
-.c {
-    position: relative;
-}
 
 /*-----HEADER-----*/
 
 header {
+    height: 100px;
     width: 100%;
+    background-color: aqua;
     display: flex;
-    color: rgb(133, 131, 131);
+    font-size: small;
+
+    color: white;
 }
 
-
-/*HEADER DX*/
-.dx {
-    width: 100%;
+/*HEADER SX*/
+.hsx {
+    width: 250px;
     height: 100px;
-    background-color: rgb(32, 32, 32);
-    color: white;
-    font-size: small;
+    background-color: blueviolet;
+}
+
+/*.hdx {
     text-align: end;
     line-height: 100px;
-}
+}*/
 
-.upgrade {
-    padding: 10px 25px;
-    margin-right: 10px;
-    border: 1px solid white;
-    border-radius: 5%;
-}
+/*HEADER DX*/
+
+/*.dx {
+    height: 100px;
+    width: 100%;
+    background-color: darkseagreen;
+
+}*/
 
 
-/*COLONNA SX*/
-
-aside {
-    display: inline-block;
-    position: absolute;
-    transform: translate(0,-13% );
-}
-.sx {
+.aside {
     width: 250px;
     height: 800px;
-    background-color:rgb(14, 14, 14);
-    padding-left: 15px;
-    font-size: medium;
-    color: rgb(133, 131, 131);
+    background-color: dodgerblue;
 }
-
-.sx div {
-    padding-bottom: 15px;
-}
-
-.logo {
-    width: 80%;
-    margin-top: 15px;
-    margin-bottom: 20px;
-}
-
-.sx i:not(.fa-plus-square) {
-    font-size: larger;
-}
-
-.playlist {
-    margin-top: 15px;
-    margin-bottom: 10px;
-}
-
-.fa-plus-square {
-    font-size: 40px;
-    margin-right: 5px;
-}
-
-.plus {
-    display: flex;
-    align-items: center;
-}
-
-.no-bullets {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
-
-.sx ul.no-bullets li {
-    padding-bottom: 15px;
-}
-
-/*-----MAIN-----*/
 
 main {
-    width: 80%;
+    width: 100%;
     height: 800px;
-    background-color: dodgerblue;
-    position: absolute;
-    transform: translate(250px, 0);
+    background-color: rgb(255, 30, 199);
+
 }
-
-nav {
-    display: flex;
-    justify-content: space-around;
-    text-transform: uppercase;
-
-
-
-
-
-
-
-
-
-
-
-
