@@ -19,16 +19,37 @@ body {
 header {
     width: 100%;
     display: flex;
-    color: rgb(184, 181, 181);
+    color: rgb(133, 131, 131);
 }
+
+
+/*HEADER COLONNA DX*/
+.dx {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-size: small;
+    text-align: end;
+    line-height: 100px;
+}
+
+.upgrade {
+    padding: 10px 25px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 5%;
+}
+
 
 /*HEADER COLONNA SX*/
 .sx {
     width: 250px;
     height: 800px;
-    background-color:black;
+    background-color:rgb(14, 14, 14);
     padding-left: 15px;
     font-size: medium;
+    color: rgb(133, 131, 131);
 }
 
 .sx div {
@@ -48,7 +69,7 @@ header {
 
 
 .playlist {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
 }
 
@@ -83,8 +104,3 @@ header {
 
 
 
-.dx {
-    width: 100%;
-    height: 100px;
-    background-color: mediumpurple;
-}
