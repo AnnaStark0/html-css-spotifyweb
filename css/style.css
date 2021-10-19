@@ -19,20 +19,57 @@ body {
 header {
     width: 100%;
     display: flex;
+    color: rgb(184, 181, 181);
 }
 
 /*HEADER COLONNA SX*/
 .sx {
-    width: 200px;
+    width: 250px;
     height: 800px;
-    background-color: rgb(0, 153, 255);
-    padding-left: 10px;
+    background-color:black;
+    padding-left: 15px;
+    font-size: medium;
+}
+
+.sx div {
+    padding-bottom: 15px;
 }
 
 .logo {
-    width: 70%;
+    width: 80%;
     margin-top: 10px;
+    margin-bottom: 20px;
     
+}
+
+.sx i:not(.fa-plus-square) {
+    font-size: larger;
+}
+
+
+.playlist {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.fa-plus-square {
+    font-size: 40px;
+    margin-right: 5px;
+}
+
+.plus {
+    display: flex;
+    align-items: center;
+}
+
+.sx ul.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+.sx ul.no-bullets li {
+    padding-bottom: 15px;
 }
 
 
