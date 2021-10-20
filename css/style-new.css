@@ -96,7 +96,7 @@ main {
 /*NAV-BOTTOM*/
 .nav-bottom {
     height: 130px;
-    background-color: rgb(79, 91, 131);
+    background-color: rgb(29, 29, 29);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -198,6 +198,11 @@ footer {
 
 }
 
+.track {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 .sinister img {
     width: 50px;
     padding-left: 5px;
@@ -225,7 +230,9 @@ font-size: 10px;
 .fcntr {
     height: 100px;
     width: 50%;
-    background-color: rgb(136, 157, 250);
+    background-color: rgb(61, 61, 61);
+    padding-right: 10px;
+    padding-left: 10px;
 
 }
 
@@ -236,7 +243,7 @@ font-size: 10px;
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 
 .fcolumnup i:not(.fa-play-circle) {
@@ -262,7 +269,7 @@ font-size: 10px;
 .fcolumndown  {
     height: 50%;
     width: 100%;
-    background-color: rgb(145, 255, 0);
+    background-color: rgb(61, 61, 61);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -270,17 +277,18 @@ font-size: 10px;
 
 
 
-hr {
-    width: 80%;
-    color: white;
-    border: 2px solid rgb(141, 138, 138);
-    margin-left: 15px;
-    margin-right: 15px;
+.timeline {
+    width: 60%;
     
 }
 
+.timeline hr {
+    color: white;
+height: 5px; }
+
 .time {
-    font-size: 15px;
+    font-size: 10px;
+
     color: white;
 }
 
@@ -295,7 +303,7 @@ hr {
 .fdx {
     height: 100px;
     width: 25%;
-    background-color: rgb(9, 109, 240);
+    background-color: rgb(61, 61, 61);
 
     display: flex;
     justify-content: flex-start;
@@ -305,20 +313,22 @@ hr {
 
 .fdx i {
     color: white;
-    font-size: 15px;
-    padding-right: 10px;
-    padding-left: 10px; 
+    font-size: 13px;
+    padding-right: 5px;
+    padding-left: 5px; 
 }
 
 
 
-
-.fdx hr {
-    width: 100px;
+.volume {
+    width: 60%;
+}
+.volume hr {
+   
     color: white;
-    border: 2px solid rgb(141, 138, 138);
-    margin-left: 15px;
-    margin-right: 15px;
+    
+    margin-left: 5px;
+    margin-right: 5px;
     
 }
 
