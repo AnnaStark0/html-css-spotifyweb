@@ -22,6 +22,8 @@ body {
     float: right;
 }
 
+
+
 main {
     height: calc(100vh - 100px);
     width: 100%;
@@ -36,18 +38,29 @@ main {
     height: 100%;
     width: 50px;
     min-height: 480px;
-    background-color: aqua;
+    background-color: rgb(29, 29, 29);
 }
 
+
+
+/*NAV-TOP*/
 .nav-top {
-    height: calc(100% - 80px);
+    height: calc(100% - 130px);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 
 
 
 .logo-small img {
-    width: 30px;
+    width: 35px;
+    color: white;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   
 }
 
 .logo img {
@@ -57,8 +70,9 @@ main {
 
 
 .nav-icone i {
-    width: 30px;
-    color: grey;
+    font-size: 20px;
+    color: rgb(189, 187, 187);
+    
     padding-top: 5px;
     padding-bottom: 5px;
     
@@ -72,16 +86,42 @@ main {
 
 
 
-
-
 .nav-playlist {
     display: none;
 }
 
+
+
+
+/*NAV-BOTTOM*/
 .nav-bottom {
-    height: 80px;
-    background-color: violet;
+    height: 130px;
+    background-color: rgb(79, 91, 131);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
+
+
+.nav-bottom .fa-arrow-circle-down  {
+    font-size: 10px;
+    color: rgb(189, 187, 187);
+    
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.nav-bottom .fa-user-circle  {
+    font-size: 20px;
+    color: rgb(189, 187, 187);
+    
+    padding-top: 5px;
+    
+    
+}
+
+
 
 
 
@@ -92,20 +132,39 @@ main {
 .col-dx {
     height: 100%;
     width: calc(100% - 50px);
-    background-color: lime;
+    background-color: rgb(83, 84, 172);
     overflow: auto;
 }
 
 .upgrade {
-    height: 90px;
+    height: 70px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
+    
     position: fixed;
     top:0;
     right: 0;
     z-index: 2;
     text-align: right;
+    line-height: 70px;
 }
+
+.text-upgrade {
+    text-transform: uppercase;
+    font-size: 10px;
+    /*font-weight: bold;*/
+    color: rgb(216, 215, 215);
+
+    margin-right: 5px;
+
+    border: 1px solid rgb(216, 215, 215);
+    border-radius: 20px;
+    padding: 5px 15px;
+
+}
+
+
+
 
 /*---FOOTER---*/
 footer {
