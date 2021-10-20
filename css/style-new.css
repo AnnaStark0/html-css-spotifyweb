@@ -7,3 +7,48 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+
+main {
+    height: calc(100vh - 100px);
+    width: 100%;
+}
+
+.col-sx {
+    height: 100%;
+    width: 50px;
+    min-height: 480px;
+    background-color: aqua;
+}
+
+.col-dx {
+    height: 100%;
+    width: calc(100% - 50px);
+    background-color: lime;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: royalblue;
+}
+
+
+
+/*DEBUG*/
