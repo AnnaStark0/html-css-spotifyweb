@@ -182,7 +182,163 @@ footer {
     position: fixed;
     z-index: 1;
     background-color: royalblue;
+
+    display: flex;
 }
+
+/*Footer SX*/
+
+.fsx {
+    height: 100px;
+    width: 25%;
+    background-color: rgb(61, 61, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.sinister img {
+    width: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.textftrsx {
+font-size: 10px;
+}
+
+.white {
+    color: white;
+}
+
+
+.icons {
+    color: grey;
+}
+
+
+
+
+/*Footer Centro*/
+
+.fcntr {
+    height: 100px;
+    width: 50%;
+    background-color: rgb(136, 157, 250);
+
+}
+
+.fcolumnup {
+    height: 50%;
+    width: 100%;
+    background-color:rgb(61, 61, 61);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fcolumnup i:not(.fa-play-circle) {
+    color: white;
+    font-size: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.fa-play-circle {
+   color: white;
+    font-size: 30px;
+   
+    padding-right: 15px;
+    padding-left: 15px;
+  
+}
+
+
+
+
+
+.fcolumndown  {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(145, 255, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+hr {
+    width: 80%;
+    color: white;
+    border: 2px solid rgb(141, 138, 138);
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+.time {
+    font-size: 15px;
+    color: white;
+}
+
+
+
+
+
+
+
+/*Footer DX*/
+
+.fdx {
+    height: 100px;
+    width: 25%;
+    background-color: rgb(9, 109, 240);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.fdx i {
+    color: white;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 10px; 
+}
+
+
+
+
+.fdx hr {
+    width: 100px;
+    color: white;
+    border: 2px solid rgb(141, 138, 138);
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
