@@ -99,17 +99,26 @@ main {
     background-color: rgb(79, 91, 131);
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
+    padding-bottom: 5px;
 }
 
 
 .nav-bottom .fa-arrow-circle-down  {
-    font-size: 10px;
+    font-size: 12px;
     color: rgb(189, 187, 187);
     
     padding-top: 5px;
     padding-bottom: 10px;
+}
+
+.nav-textsmall {
+    display: none;
+}
+
+.nav-hr {
+    display: none;
 }
 
 .nav-bottom .fa-user-circle  {
@@ -197,6 +206,20 @@ footer {
 }
 
 
+
+
+
+
+.nav-top {
+
+    align-items: flex-start;
+
+    padding-left: 15px;
+
+
+}
+
+
 .logo-small img {
     display: none;
 }
@@ -204,14 +227,76 @@ footer {
 .logo img {
     display: block;
     width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 } 
 
+
+
+
 .nav-text {
-    display: inline-block
+    display: inline-block;
+
+    color:grey;
+    font-size: 13px;
 }
 
+.nav-textsmall {
+    display: inline-block;
+    color:grey;
+    font-size: 10px;
+}
+
+
+
+
+
 .nav-playlist {
-    /* display: block; */
+     display: block; 
+
+     margin-top: 15px;
+     margin-bottom: 10px;
+
+     color:grey;
+     font-size: 13px;
+}
+
+.nav-playlist ul.no-bullets li {
+    padding-bottom: 10px;
+}
+
+.no-bullets {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-playlist i {
+    font-size: 30px;
+    color: rgb(189, 187, 187);
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+
+
+
+
+.nav-bottom {
+
+    justify-content: flex-end;
+    align-items: flex-start;
+
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.nav-hr {
+    display: block;
+    color: grey;
+    width: 90%;
 }
 
 
