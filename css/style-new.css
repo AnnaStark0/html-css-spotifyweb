@@ -22,12 +22,16 @@ body {
     float: right;
 }
 
-
 main {
     height: calc(100vh - 100px);
     width: 100%;
 }
 
+
+
+
+
+/*---COL-SX---*/
 .col-sx {
     height: 100%;
     width: 50px;
@@ -35,6 +39,56 @@ main {
     background-color: aqua;
 }
 
+.nav-top {
+    height: calc(100% - 80px);
+}
+
+
+
+
+.logo-small img {
+    width: 30px;
+}
+
+.logo img {
+    display: none;
+}
+
+
+
+.nav-icone i {
+    width: 30px;
+    color: grey;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+.nav-text {
+    display: none;
+}
+
+
+
+
+
+
+
+.nav-playlist {
+    display: none;
+}
+
+.nav-bottom {
+    height: 80px;
+    background-color: violet;
+}
+
+
+
+
+
+
+/*---COL-DX---*/
 .col-dx {
     height: 100%;
     width: calc(100% - 50px);
@@ -53,7 +107,7 @@ main {
     text-align: right;
 }
 
-
+/*---FOOTER---*/
 footer {
     height: 100px;
     width: 100%;
@@ -61,6 +115,48 @@ footer {
     z-index: 1;
     background-color: royalblue;
 }
+
+
+
+
+
+
+/*MEDIA QUERY*/
+
+/*MQ S*/
+@media (min-width: 480px) {
+.col-sx {
+    width: 210px;
+}
+
+.col-dx {
+    width: calc(100% - 210px);
+}
+
+.upgrade {
+    width: calc(100% - 210px);
+}
+
+
+.logo-small img {
+    display: none;
+}
+
+.logo img {
+    display: block;
+    width: 100px;
+} 
+
+.nav-text {
+    display: inline-block
+}
+
+.nav-playlist {
+    /* display: block; */
+}
+
+
+
 
 
 
