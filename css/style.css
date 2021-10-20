@@ -22,17 +22,17 @@ header {
 }
 
 /*HEADER SX*/
-.hsx {
+/*.hsx {
     width: 250px;
     height: 100px;
     background-color:rgb(39, 39, 39);
-}
+}*/
 
 .logo {
-    width: 70%;
+    width: 10%;
     margin-top: 15px;
     margin-left: 15px;
-    
+
 }
 
 
@@ -49,21 +49,21 @@ header {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  .left {
-      float: left;
-  }
+.left {
+    float: left;
+}
 
-  .right {
-      float: right;
-  }
+.right {
+    float: right;
+}
 
 /*-----CONTENITORE-----*/
 .contenitore {
     width: 100%;
     height: 800px;
-    background-color: rgb(105, 171, 233); 
+    background-color: rgb(105, 171, 233);
 
 }
 
@@ -75,13 +75,13 @@ header {
 .aside {
     width: 18%;
     height: 800px;
-    background-color:rgb(39, 39, 39);
+    background-color: rgb(39, 39, 39);
 
     padding-left: 15px;
     font-size: medium;
     color: rgb(133, 131, 131);
 
-    
+
 }
 
 .aside div {
@@ -111,11 +111,17 @@ header {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
 
 .aside ul.no-bullets li {
     padding-bottom: 15px;
 }
+
+
+.sidend {
+
+}
+
 
 
 
@@ -127,22 +133,26 @@ header {
 
 .menu {
     width: 82%;
-    background-color: violet;
+    height: 800px;
+    background-color: rgb(81, 82, 92);
 }
 
 /*--NAV--*/
 
 nav {
     height: 50px;
-    
-background-color: lime;
+
+    /*background-color: rgb(123, 133, 177);*/
+
+    background-color: rgb(81, 82, 92);
+
     text-transform: uppercase;
 
     display: flex;
-justify-content: center;
-align-items: center;
+    justify-content: center;
+    align-items: center;
 
-font-weight: bold;
+    font-weight: bold;
 }
 
 nav span {
@@ -155,8 +165,13 @@ nav span {
 
 .recently {
     width: 100%;
-    height: 300px;
-    background-color: rgb(0, 38, 255);;
+    height: 350px;
+    /*background-color: rgb(0, 38, 255);*/
+
+    margin-bottom: 20px;
+
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .recently h2 {
@@ -167,13 +182,194 @@ nav span {
 
     width: 100%;
     display: flex;
-    
+
+    margin-top: 20px;
+
+
 }
 
 .box {
-    height: 200px;
+    height: 300px;
     width: calc(100% / 6);
-    background-color: gold;
+    /*background-color: rgb(73, 73, 72);*/
     margin-right: 5px;
     margin-left: 5px;
+
+    object-fit: cover;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.two {
+    height: 280px;
+    width: calc(100% / 6);
+    /*background-color: rgb(73, 73, 72);*/
+    margin-right: 5px;
+    margin-left: 5px;
+
+    object-fit: cover;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.row .box img {
+    width: 100%;
+}
+
+.title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    color: white;
+    font-weight: bold;
+}
+
+.sub {
+    color: gray;
+    font-size: small;
+}
+
+
+
+/*---FOOTER---*/
+footer {
+    height: 150px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+    
+}
+
+.fsx {
+    height: 150px;
+    width: 18%;
+    background-color: rgb(195, 233, 248);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.textftrsx {
+
+}
+
+.white {
+    color: white;
+}
+
+
+.icons {
+    color: grey;
+    padding-right: 10px;
+}
+
+.icons i {
+    padding-right: 5px;
+}
+
+
+
+
+.fcntr {
+    height: 150px;
+    width: 64%;
+    background-color: rgb(136, 157, 250);
+
+}
+
+.fcolumnup {
+    height: 50%;
+    width: 100%;
+    background-color: magenta;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fcolumnup i:not(.fa-play-circle) {
+    color: white;
+    font-size: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.fa-play-circle {
+    color: white;
+    font-size: 30px;
+    padding-right: 20px ;
+    padding-left: 20px;
+}
+
+
+
+
+
+.fcolumndown  {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(145, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+hr {
+    width: 400px;
+    color: white;
+    border: 2px solid rgb(141, 138, 138);
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+
+
+
+
+.fsx img {
+    
+}
+
+
+
+
+
+
+.fdx {
+    height: 150px;
+    width: 18%;
+    background-color: rgb(9, 109, 240);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.fdx i {
+    color: white;
+    font-size: 15px;
+    padding-right: 10px;
+    padding-left: 10px; 
+}
+
+
+
+
+.fdx hr {
+    width: 100px;
+    color: white;
+    border: 2px solid rgb(141, 138, 138);
+    margin-left: 15px;
+    margin-right: 15px;
+    
 }
