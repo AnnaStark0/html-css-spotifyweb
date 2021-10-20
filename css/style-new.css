@@ -124,7 +124,7 @@ main {
 .col-dx {
     height: 100%;
     width: calc(100% - 50px);
-    background-color: rgb(83, 84, 172);
+    background-color: rgb(27, 34, 44);
     overflow: auto;
 }
 
@@ -167,7 +167,7 @@ nav {
 
     /*background-color: rgb(123, 133, 177);*/
 
-    background-color: rgb(81, 82, 92);
+    background-color: rgb(27, 34, 44);
 
     text-transform: uppercase;
 
@@ -176,7 +176,7 @@ nav {
     justify-content: center;
     align-items: center;
 
-    /*font-weight: bold;*/
+    font-weight: bold;
 
     margin-top: 70px;
 }
@@ -262,14 +262,14 @@ footer {
 
 .fcolumnup i:not(.fa-play-circle) {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     padding-right: 10px;
     padding-left: 10px;
 }
 
 .fa-play-circle {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 
     padding-right: 15px;
     padding-left: 15px;
