@@ -231,6 +231,8 @@ nav a:hover {
     margin-bottom: 20px;
     object-fit: cover;
     text-align: center;
+
+    position: relative;
 }
 
 .row .box img {
@@ -240,8 +242,22 @@ nav a:hover {
 .row .box img:hover {
     filter: opacity(0.5);
     cursor: grab;
-    background: url(../img/play.jpeg);
 }
+
+/*---Tentativo fallito di far apparire il play nell'hover. C'ero quasi :( ---*/
+.fa-play-circle {
+position: absolute;
+top: 25%;
+left: 32%;
+z-index: 1;
+
+/*opacity: 0; */
+}
+
+/*.fa-play-circle:hover {
+    opacity: (0.5)
+}*/
+/*------------------------------------------*/
 
 .title {
     margin-top: 10px;
@@ -606,16 +622,16 @@ footer {
         color: grey;
         margin-left: 5px;
     }
-    
+
     .fa-heart {
         margin-right: 5px;
     }
-    
+
     .icons .fa-heart:hover {
         color: white;
         cursor: grab;
     }
-    
+
     .icons .fa-folder:hover {
         color: white;
         cursor: grab;
