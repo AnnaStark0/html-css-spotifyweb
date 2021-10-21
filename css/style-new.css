@@ -74,6 +74,10 @@ main {
     display: none;
 }
 
+.playlist-up {
+    display: none;
+}
+
 .nav-playlist {
     display: none;
 }
@@ -207,9 +211,7 @@ nav span {
 
 /*--MAIN CONTENT--*/
 
-.content
-
-.recently {
+.content .recently {
     width: 100%;
     height: 100%;
     /*background-color: rgb(0, 38, 255);*/
@@ -242,9 +244,9 @@ nav span {
 
     margin-bottom: 20px;
 
-    
 
-    
+
+
 
     object-fit: cover;
 
@@ -278,7 +280,7 @@ nav span {
 .title {
     margin-top: 10px;
     margin-bottom: 5px;
-    
+
 
     color: white;
     font-weight: bold;
@@ -361,7 +363,7 @@ footer {
     font-size: 9px;
     color: grey;
 
-    
+
 }
 
 
@@ -568,21 +570,58 @@ footer {
 
 
 
-
-
-    .nav-playlist {
+    .playlist-up {
         display: block;
-
         margin-top: 15px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
 
         color: grey;
         font-size: 13px;
     }
 
+    .playlist-up h4 {
+        color: white;
+    }
+
+    .nav-playlist {
+        display: block;
+
+        margin-top: 5px;
+        margin-bottom: 10px;
+
+        color: grey;
+        font-size: 13px;
+        height: 100%;
+        overflow-y: auto;
+        width: 80%;
+    }
+
+
+
+
+    .plus {
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+        display: flex;
+        align-items: center;
+    }
+
+    .fa-plus-square {
+        font-size: 30px;
+        color: white;
+    }
+
+    .plus span {
+        margin-left: 5px;
+    }
+
+
     .nav-playlist ul.no-bullets li {
         padding-bottom: 10px;
     }
+
+
 
     .no-bullets {
         list-style-type: none;
