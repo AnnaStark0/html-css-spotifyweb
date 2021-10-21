@@ -33,7 +33,7 @@ main {
     height: 100%;
     width: 50px;
     min-height: 480px;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(8, 8, 8);
 }
 
 /*NAV-TOP*/
@@ -84,7 +84,7 @@ main {
 /*NAV-BOTTOM*/
 .nav-bottom {
     height: 130px;
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(8, 8, 8);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -266,7 +266,7 @@ footer {
     width: 100%;
     position: fixed;
     z-index: 1;
-    background-color: rgb(43, 43, 43);
+    background-color: rgb(39, 39, 39);
     display: flex;
 }
 
@@ -316,24 +316,11 @@ footer {
     cursor: grab;
 }
 
+
 .icons {
-    color: grey;
-    margin-left: 5px;
+    display: none;
 }
 
-.fa-heart {
-    margin-right: 5px;
-}
-
-.icons .fa-heart:hover {
-    color: white;
-    cursor: grab;
-}
-
-.icons .fa-folder:hover {
-    color: white;
-    cursor: grab;
-}
 
 
 /*Footer Centro*/
@@ -612,6 +599,26 @@ footer {
         width: 90%;
         margin-top: 5px;
         margin-bottom: 5px;
+    }
+
+    .icons {
+        display: inline-block;
+        color: grey;
+        margin-left: 5px;
+    }
+    
+    .fa-heart {
+        margin-right: 5px;
+    }
+    
+    .icons .fa-heart:hover {
+        color: white;
+        cursor: grab;
+    }
+    
+    .icons .fa-folder:hover {
+        color: white;
+        cursor: grab;
     }
 
 
