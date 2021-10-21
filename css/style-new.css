@@ -22,15 +22,10 @@ body {
     float: right;
 }
 
-
-
 main {
     height: calc(100vh - 100px);
     width: 100%;
 }
-
-
-
 
 
 /*---COL-SX---*/
@@ -40,8 +35,6 @@ main {
     min-height: 480px;
     background-color: rgb(29, 29, 29);
 }
-
-
 
 /*NAV-TOP*/
 .nav-top {
@@ -88,7 +81,6 @@ main {
 }
 
 
-
 /*NAV-BOTTOM*/
 .nav-bottom {
     height: 130px;
@@ -103,7 +95,6 @@ main {
 .nav-bottom .fa-arrow-circle-down {
     font-size: 12px;
     color: rgb(189, 187, 187);
-
     padding-top: 5px;
     padding-bottom: 10px;
 }
@@ -133,11 +124,6 @@ main {
 }
 
 
-
-
-
-
-
 /*---COL-DX---*/
 .col-dx {
     height: 100%;
@@ -146,13 +132,11 @@ main {
     overflow: auto;
 }
 
-
 /*UPGRADE*/
 .upgrade {
     height: 70px;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-
     position: fixed;
     top: 0;
     right: 0;
@@ -164,35 +148,18 @@ main {
 .text-upgrade {
     text-transform: uppercase;
     font-size: 10px;
-    /*font-weight: bold;*/
     color: rgb(216, 215, 215);
-
     margin-right: 5px;
-
     border: 1px solid rgb(216, 215, 215);
     border-radius: 20px;
     padding: 5px 15px;
-
 }
-
 
 .text-upgrade:hover {
-
     font-size: 12px;
-
     color: white padding: 6px 16px;
-
     cursor: grab;
 }
-
-
-
-
-
-
-
-
-
 
 
 
@@ -203,20 +170,14 @@ main {
 nav {
     height: 70px;
     width: 100%;
-
     /*background-color: rgb(123, 133, 177);*/
-
     background-color: rgb(27, 34, 44);
-
     text-transform: uppercase;
-
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
     font-weight: bold;
-
     margin-top: 70px;
 }
 
@@ -227,16 +188,19 @@ nav a {
     text-decoration: none;
 }
 
-
 nav a:hover {
     color: white;
     cursor: grab;
-    font-size: 12px;
+    font-size: 11px;
 }
 
+.select-bottom {
+    border-bottom: 2px solid lime;
+}
 
-
-
+.select-left {
+    border-left: 2px solid lime;
+}
 
 /*--MAIN CONTENT--*/
 
@@ -244,12 +208,8 @@ nav a:hover {
     width: 100%;
     height: 100%;
     /*background-color: rgb(0, 38, 255);*/
-
-
     margin-left: 20px;
 }
-
-
 
 .recently h2 {
     color: white;
@@ -259,28 +219,19 @@ nav a:hover {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-
     margin-top: 20px;
-
     margin-bottom: 20px;
 }
-
-
 
 .box {
     height: 250px;
     width: 150px;
     /*background-color: rgb(73, 73, 72);*/
     margin-right: 10px;
-
     margin-bottom: 20px;
-
     object-fit: cover;
     text-align: center;
-
 }
-
-
 
 .row .box img {
     width: 100%;
@@ -289,20 +240,12 @@ nav a:hover {
 .row .box img:hover {
     filter: opacity(0.5);
     cursor: grab;
-
     background: url(../img/play.jpeg);
-    
 }
-
-
-
-
 
 .title {
     margin-top: 10px;
     margin-bottom: 5px;
-
-
     color: white;
     font-weight: bold;
 }
@@ -312,25 +255,9 @@ nav a:hover {
     font-size: small;
 }
 
-
 .lana-ludo {
     border-radius: 100%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*---FOOTER---*/
@@ -340,7 +267,6 @@ footer {
     position: fixed;
     z-index: 1;
     background-color: rgb(43, 43, 43);
-
     display: flex;
 }
 
@@ -353,7 +279,6 @@ footer {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-
 }
 
 .f-album {
@@ -362,9 +287,7 @@ footer {
     align-items: center;
     margin-right: 5px;
     margin-left: 5px;
-
     line-height: 0.7;
-
 }
 
 .sinister img {
@@ -385,12 +308,9 @@ footer {
 .song {
     font-size: 9px;
     color: grey;
-
-
 }
 
 .song:hover {
-    font-size: 11px;
     color: white;
     text-decoration: underline;
     cursor: grab;
@@ -398,6 +318,11 @@ footer {
 
 .icons {
     color: grey;
+    margin-left: 5px;
+}
+
+.fa-heart {
+    margin-right: 5px;
 }
 
 .icons .fa-heart:hover {
@@ -419,14 +344,12 @@ footer {
     /*background-color: rgb(61, 61, 61);*/
     padding-right: 10px;
     padding-left: 10px;
-
 }
 
 .fcolumnup {
     height: 50%;
     width: 100%;
     /*background-color: rgb(61, 61, 61);*/
-
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -442,10 +365,8 @@ footer {
 .fa-play-circle {
     color: white;
     font-size: 25px;
-
     padding-right: 15px;
     padding-left: 15px;
-
 }
 
 .fa-random:hover {
@@ -469,8 +390,6 @@ footer {
     cursor: grab;
 }
 
-
-
 .fcolumndown {
     height: 50%;
     width: 100%;
@@ -480,49 +399,34 @@ footer {
     align-items: center;
 }
 
-
-
 .timeline {
     width: 60%;
-
     background-color: grey;
     height: 3px;
-
     margin-right: 15px;
     margin-left: 15px;
-
-    
 }
 
 .timelinecolor {
     width: 25%;
     background-color: lightgray;
     height: 3px;
-
-
-
 }
 
 .timeline:hover {
     cursor: grab;
 }
 
-/*.prova {
-
-}*/
-
-
+.timelinecolor:hover {
+    width: 25%;
+    background-color: lime;
+    height: 3px;
+}
 
 .time {
     font-size: 10px;
-
     color: white;
 }
-
-
-
-
-
 
 
 /*Footer DX*/
@@ -531,11 +435,9 @@ footer {
     height: 100px;
     width: 25%;
     /*background-color: rgb(61, 61, 61);*/
-
     display: flex;
     justify-content: flex-end;
     align-items: center;
-
 }
 
 .fdx i {
@@ -545,23 +447,12 @@ footer {
     padding-left: 5px;
 }
 
-
-
 .volume {
-
-}
-
-.volume  {
-    width: 40%;
-    
-
+    width: 35%;
     background-color: grey;
     height: 3px;
-
     margin-right: 20px;
-
     margin-left: 5px;
-    
 }
 
 .fa-align-justify:hover {
@@ -583,25 +474,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*MEDIA QUERY*/
 
 /*MQ S*/
@@ -618,20 +490,10 @@ footer {
         width: calc(100% - 210px);
     }
 
-
-
-
-
-
     .nav-top {
-
         align-items: flex-start;
-
         padding-left: 15px;
-
-
     }
-
 
     .logo-small img {
         display: none;
@@ -644,18 +506,13 @@ footer {
         padding-bottom: 20px;
     }
 
-
-
-
     .nav-text {
         display: inline-block;
-
         color: grey;
         font-size: 13px;
-
         text-decoration: none;
     }
-    
+
     .nav-text:hover {
         color: white;
         cursor: grab;
@@ -671,8 +528,6 @@ footer {
         color: white;
         cursor: grab;
     }
-
-
 
     .playlist-up {
         display: block;
@@ -693,10 +548,8 @@ footer {
 
     .nav-playlist {
         display: block;
-
         margin-top: 5px;
         margin-bottom: 10px;
-
         color: grey;
         font-size: 13px;
         height: 100%;
@@ -704,14 +557,8 @@ footer {
         width: 80%;
     }
 
-
-
-
-
     .plus {
         margin-top: 5px;
-
-
         display: flex;
         align-items: center;
     }
@@ -729,17 +576,15 @@ footer {
         text-decoration: none;
         color: gray;
     }
-    
+
     .nav-playlist ul.no-bullets li {
         padding-bottom: 10px;
     }
 
-.no-bullets a:hover {
+    .no-bullets a:hover {
         color: white;
         cursor: grab;
     }
-
-
 
     .no-bullets {
         list-style-type: none;
@@ -750,22 +595,13 @@ footer {
     .nav-playlist i {
         font-size: 30px;
         color: rgb(189, 187, 187);
-
         padding-top: 10px;
         padding-bottom: 10px;
-
     }
 
-
-
-
-
-
     .nav-bottom {
-
         justify-content: flex-end;
         align-items: flex-start;
-
         padding-left: 10px;
         padding-bottom: 5px;
     }
@@ -776,14 +612,24 @@ footer {
         width: 90%;
         margin-top: 5px;
         margin-bottom: 5px;
-
     }
 
 
+
+
+    @media (min-width: 660px) {
+        .sinister img {
+            width: 70px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+    }
 
     .fsx .icons {
-        margin-left: 40px;
+        margin-left: 20px;
     }
+
+
 
 
     /*DEBUG*/
